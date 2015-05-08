@@ -1,0 +1,56 @@
+.select {
+	
+	display: inline-block;
+	margin-bottom: 50px;
+	margin-left: 50px;
+
+}
+
+#container {
+	background-color: #74DF00;
+	border: 2px solid purple;
+	width: 800px;
+	margin: 50px auto;
+}
+
+#results {
+	font-size: 20px;
+	color: blue;
+	font-weight: bold;
+
+}
+
+.button {
+
+	font-size: 15px;
+	color: blue;
+	height: 30px;
+	border: 2px outset purple;	
+}
+
+p {
+	color: blue;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: Verdana;	
+	margin-bottom: 5px;
+}
+
+h2 {
+	color: blue;
+	font-family: Verdana;
+	margin: 0 100px;
+}
+
+body {
+	background-color: #D7DF01;
+
+}
+
+#resume, #pause {
+	display:none;
+}
+
+#view {
+	margin-left: 20px;	
+}

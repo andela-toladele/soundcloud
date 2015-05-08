@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="http://connect.soundcloud.com/sdk.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>        
+        <link type='text/css' rel='stylesheet' href='soundcloud.css'/>
+    </head>
+    <body>
+    	<div id="container">
+  			<h2>Soundcloud API Test</h2>
+	    	<div id="selectBlocks">
+	    		<div class="select">
+	    			<p>Genre</p>
+		    			<select value="Rock" id="genre">
+		    				<option value="Rock">Rock</option>
+		    				<option value="Hiphop">Hiphop</option>
+		    				<option value="Pop">Pop</option>
+		    				<option value="RnB">RnB</option>
+		    				<option value="Soul">Soul</option>
+		    			</select>
+
+	    		</div>
+	    		<div class="select">
+	    			<p>Count</p>
+	    			<select value="1" id="index">
+		    				<option value="1">1</option>
+		    				<option value="2">2</option>
+		    				<option value="3">3</option>
+		    				<option value="4">4</option>
+		    				<option value="5">5</option>
+		    				<option value="6">6</option>
+		    				<option value="7">7</option>
+		    				<option value="8">8</option>
+		    				<option value="9">9</option>
+		    				<option value="10">10</option>
+		    			</select>
+	    		</div>
+
+	    	</div>
+	    	<div>
+		    	<button id="view" class="button">View top hottest song(s)</button>
+		    	<button id="play" class="button">Play Selected</button>
+		    	<button id="pause" class="button">Pause current song</button>
+		    	<button id="resume" class="button">Resume song</button>	    	
+		    	<button id="viewCurSong" class="button">View current song</button>
+		    	<button id="stop" class="button">Stop song</button>
+	    	</div>
+	      <ul id="results">
+	      </ul>
+	    </div>
+      <script src="soundcloud.js"></script>
+    </body>
+</html>
